@@ -78,7 +78,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-git branches
+git commands
 
+git branch
+git branch -d pizzahouse
+git branch -b pizzahouse
+git checkout pizzahouse
 git commit --allow-empty -m "first commit"
+git status
 git add .
+git status
+git commit -m "Project 1 : Pizzahouse"
+pizzahouse skug\$ git push -u laravel pizzahouse
+
+git remote add <name> <url>
+git remote -v
+git remote
+git remote remove origin
