@@ -97,3 +97,9 @@ git remote add <name> <url>
 git remote -v
 git remote
 git remote remove origin
+
+
+get 
+routing post
+controller routing
+route parameters
