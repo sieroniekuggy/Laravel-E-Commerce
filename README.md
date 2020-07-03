@@ -106,3 +106,8 @@ route parameters
 route middleware - learned about controlling routes using middleware, creating my own middleware  and implement it. Registering middleware. Controlling all or specific functions in a controller using contructor with middleware.
 
 learned about using segments to show the current route
+
+
+
+
+https://www.youtube.com/watch?v=NGklF48GNuY&list=PL67QbqrRRyyS9WEl4MPE-tO1FC_ULtcCC&index=1
