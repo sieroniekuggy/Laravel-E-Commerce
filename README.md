@@ -103,3 +103,4 @@ get
 routing post
 controller routing
 route parameters
+route middleware - learned about controlling routes using middleware, creating my own middleware  and implement it. Registering middleware. Controlling all or specific functions in a controller using contructor with middleware.
