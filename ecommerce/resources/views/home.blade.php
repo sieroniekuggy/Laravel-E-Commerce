@@ -15,7 +15,7 @@
                         <h3>${{ $product->price }}</h3>
                     </div>
                     <div class="card-body">
-                        <a href="{{ route('cart.add', $product->id) }}" class="card-link">Add to cart</a>
+                        <a href="{{ route('cart.add', $product->id) }}" class="card-link"><i class="fas fa-cart-plus text-primary fa-2x"></i></a>
                     </div>
                 </div>
             </div>

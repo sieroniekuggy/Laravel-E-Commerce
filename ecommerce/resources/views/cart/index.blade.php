@@ -23,7 +23,7 @@
                 <td>
                     <form action="{{ route('cart.update', $item->id) }}">
                         <input name="quantity" type="number" value="{{ $item->quantity }}">
-                        <input type="submit" value="save" class="btn btn-primary">
+                        <input type="submit" value="save" class="btn btn-outline-primary">
                     </form>
                 </td>
                 <td>
@@ -38,6 +38,8 @@
         Total Price : ${{ \Cart::session(auth()->id())->getTotal() }}
     </h3>
 
-    <a class="btn btn-primary" href="{{ route('cart.checkout') }}" role="button">Proceed to checkout</a>
+    <a class="btn btn-primary" href="{{ route('cart.checkout') }}" role="button">Proceed to checkout <i class="fas fa-arrow-circle-right"></i></a>
+
+    <a class="btn btn-primary offset-9" href="{{ route('home') }}" role="button"><i class="fas fa-backward"></i> Back</a>
 
 @endsection
