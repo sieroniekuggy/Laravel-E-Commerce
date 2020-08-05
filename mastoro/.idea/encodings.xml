@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/app/Http/Controllers/PayPalController.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/Order.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/Product.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Shop.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/shops/create.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/vendor/voyager/orders/read.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/vendor/voyager/orders/view.blade.php" charset="US-ASCII" />
   </component>
