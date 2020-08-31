@@ -32,8 +32,8 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-08-03 22:42:05',
-                'updated_at' => '2020-08-03 22:42:05',
+                'created_at' => '2020-02-11 00:10:11',
+                'updated_at' => '2020-02-11 00:10:11',
             ),
             1 => 
             array (
@@ -50,8 +50,8 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-08-03 22:42:05',
-                'updated_at' => '2020-08-03 22:42:05',
+                'created_at' => '2020-02-11 00:10:11',
+                'updated_at' => '2020-02-11 00:10:11',
             ),
             2 => 
             array (
@@ -64,12 +64,12 @@ class DataTypesTableSeeder extends Seeder
                 'model_name' => 'TCG\\Voyager\\Models\\Role',
                 'policy_name' => NULL,
                 'controller' => 'TCG\\Voyager\\Http\\Controllers\\VoyagerRoleController',
-                'description' => '',
+                'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => NULL,
-                'created_at' => '2020-08-03 22:42:05',
-                'updated_at' => '2020-08-03 22:42:05',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"desc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-02-11 00:10:11',
+                'updated_at' => '2020-02-19 17:28:01',
             ),
             3 => 
             array (
@@ -86,8 +86,8 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             4 => 
             array (
@@ -104,8 +104,8 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             5 => 
             array (
@@ -122,8 +122,8 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             6 => 
             array (
@@ -140,8 +140,44 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-08-03 22:52:31',
-                'updated_at' => '2020-08-03 23:37:22',
+                'created_at' => '2020-02-11 00:22:34',
+                'updated_at' => '2020-02-13 01:06:26',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'name' => 'shops',
+                'slug' => 'shops',
+                'display_name_singular' => 'Shop',
+                'display_name_plural' => 'Shops',
+                'icon' => 'voyager-bag',
+                'model_name' => 'App\\Shop',
+                'policy_name' => 'App\\Policies\\ShopPolicy',
+                'controller' => 'App\\Http\\Controllers\\Admin\\ShopController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-02-19 17:15:37',
+                'updated_at' => '2020-02-19 17:16:25',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'name' => 'products',
+                'slug' => 'products',
+                'display_name_singular' => 'Product',
+                'display_name_plural' => 'Products',
+                'icon' => NULL,
+                'model_name' => 'App\\Product',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'created_at' => '2020-02-19 17:18:39',
+                'updated_at' => '2020-02-19 17:18:39',
             ),
         ));
         

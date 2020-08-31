@@ -32,8 +32,8 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             1 => 
             array (
@@ -52,8 +52,8 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             2 => 
             array (
@@ -70,8 +70,8 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
             3 => 
             array (
@@ -90,8 +90,8 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
         ));
         

@@ -11,18 +11,18 @@ class CreateOrdersTable extends Migration
      *
      * @return void
      */
-    public function up()
+     public function up()
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->bigIncrements('id');
 
             $table->string('order_number');
             $table->unsignedBigInteger('user_id');
-            $table->enum('status', ['pending', 'processing', 'completed', 'decline'])->default('pending');
+            $table->enum('status', ['pending','processing','completed','decline'])->default('pending');
             $table->float('grand_total');
             $table->integer('item_count');
             $table->boolean('is_paid')->default(false);
-            $table->enum('payment_method', ['cash_on_delivery', 'paypal', 'stripe', 'card'])->default('cash_on_delivery');
+            $table->enum('payment_method', ['cash_on_delivery', 'paypal','stripe','card'])->default('cash_on_delivery');
 
             $table->string('shipping_fullname');
             $table->string('shipping_address');

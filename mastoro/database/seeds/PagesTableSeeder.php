@@ -30,8 +30,8 @@ class PagesTableSeeder extends Seeder
                 'meta_description' => 'Yar Meta Description',
                 'meta_keywords' => 'Keyword1, Keyword2',
                 'status' => 'ACTIVE',
-                'created_at' => '2020-08-03 22:42:07',
-                'updated_at' => '2020-08-03 22:42:07',
+                'created_at' => '2020-02-11 00:10:14',
+                'updated_at' => '2020-02-11 00:10:14',
             ),
         ));
         

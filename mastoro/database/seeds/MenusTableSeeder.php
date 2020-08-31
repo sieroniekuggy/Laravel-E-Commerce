@@ -21,8 +21,8 @@ class MenusTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'admin',
-                'created_at' => '2020-08-03 22:42:06',
-                'updated_at' => '2020-08-03 22:42:06',
+                'created_at' => '2020-02-11 00:10:11',
+                'updated_at' => '2020-02-11 00:10:11',
             ),
         ));
         

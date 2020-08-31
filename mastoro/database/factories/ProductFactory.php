@@ -5,10 +5,11 @@
 use App\Product;
 use Faker\Generator as Faker;
 
-$factory->define(product::class, function (Faker $faker) {
+$factory->define(Product::class, function (Faker $faker) {
     return [
-        'name'=>$faker->sentence(2),
-        'description'=>$faker->sentence(20),
-        'price'=>$faker->numberBetween(100,5000),
+        'name' => $faker->sentence(2),
+        'description' => $faker->sentence(20),
+        'price' => $faker->numberBetween(100, 5000),
+
     ];
 });
