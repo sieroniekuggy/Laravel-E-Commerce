@@ -1,7 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.front')
 
 @section('content')
 
+<div class="container-fluid text-center">
     <h2>Your Cart</h2>
 
     <table class="table">
