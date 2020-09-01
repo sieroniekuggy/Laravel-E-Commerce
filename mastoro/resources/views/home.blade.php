@@ -146,21 +146,8 @@
                         <div class="custom-row-2">
 
                             @foreach($allProducts as $product)
-                                {{-- @include('product._single_product') --}}
-
-                                                <div class="col-3">
-                    <div class="card m-3 p-2">
-                        <img src="{{ asset('default-product.jpg') }}" alt="Card image cap" class="card-img-top-">
-                        <div class="card-body">
-                            <h4 class="card-title">{{ $product->name }}</h4>
-                            <p class="card-text">{{ $product->description }}</p>
-                            <h3>${{ $product->price }}</h3>
-                        </div>
-                        <div class="card-body">
-                            <a href="{{ route('cart.add', $product->id) }}" class="card-link">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
+                            
+                                @include('product._single_product')
 
                             @endforeach
 
