@@ -146,7 +146,6 @@
                         <div class="custom-row-2">
 
                             @foreach($allProducts as $product)
-                            
                                 @include('product._single_product')
 
                             @endforeach

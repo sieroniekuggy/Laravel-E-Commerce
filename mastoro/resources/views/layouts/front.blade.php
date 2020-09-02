@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>sKug - eCommerce</title>
+    <title>Electronics - eCommerce HTML5 Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/assets/css/responsive.css">
 
 
-    {{-- @livewireStyles --}}
+    @livewireStyles
 
     <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -36,8 +36,8 @@
             <div class="header-info-wrapper pl-200 pr-200">
                 <div class="header-contact-info">
                     <ul>
-                        <li><i class="pe-7s-call"></i> +86 156 5324 2335</li>
-                        <li><i class="pe-7s-mail"></i> <a href="#">sieroniekuggy@gmail.com</a></li>
+                        <li><i class="pe-7s-call"></i> +011 2231 4545</li>
+                        <li><i class="pe-7s-mail"></i> <a href="#">company@domail.info</a></li>
                     </ul>
                 </div>
                 <div class="electronics-login-register">

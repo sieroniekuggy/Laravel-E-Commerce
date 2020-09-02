@@ -1,36 +1,36 @@
 @component('mail::message')
-    # Invoice Paid
+# Invoice Paid
 
-    Thanks for the purchase
+Thanks for the purchase
 
-    Here is your receipt
+Here is your receipt
 
-    <table class="table">
-        <thead>
+<table class="table">
+    <thead>
         <tr>
             <th>Product name</th>
             <th>quantity</th>
             <th>price</th>
         </tr>
-        </thead>
-        <tbody>
+    </thead>
+    <tbody>
         @foreach($order->items as $item)
-            <tr>
-                <td scope="row">{{ $item->name }}</td>
-                <td>{{ $item->pivot->quantity }}</td>
-                <td>{{ $item->pivot->price }}</td>
-            </tr>
+        <tr>
+            <td scope="row">{{ $item->name }}</td>
+            <td>{{ $item->pivot->quantity }}</td>
+            <td>{{ $item->pivot->price }}</td>
+        </tr>
         @endforeach
-        </tbody>
-    </table>
+    </tbody>
+</table>
 
-    Total : {{$order->grand_total}}
+Total : {{$order->grand_total}}
 
 
-    @component('mail::button', ['url' => ''])
-        Button Text
-    @endcomponent
+@component('mail::button', ['url' => ''])
+Button Text
+@endcomponent
 
-    Thanks,<br>
-    {{ config('app.name') }}
+Thanks,<br>
+{{ config('app.name') }}
 @endcomponent
